@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: gimme-food
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+  register-shutdown-hook: true
+endpoints:
+  beans:
+    sensitive: true
+    enabled: true
+  health:
+    enabled: true
+    sensitive: false
+  auditevents:
+    sensitive: true
+management:
+  port: 8082
+  add-application-context-header: false
+  context-path: /actuator
+---
+spring:
+  profiles: dev
+endpoints:
+  beans:
+    sensitive: false
+    enabled: true
+  health:
+    enabled: true
+    sensitive: false
+  auditevents:
+    sensitive: false
+management:
+  port: 8082
+  context-path: /actuator
+  add-application-context-header: true

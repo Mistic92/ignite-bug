@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ignite-bug.iml" filepath="$PROJECT_DIR$/ignite-bug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ignite-bug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ignite-bug_main.iml" group="ignite-bug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ignite-bug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ignite-bug_test.iml" group="ignite-bug" />
+    </modules>
+  </component>
+</project>
